@@ -1,0 +1,14 @@
+<Context>
+	<Resource 
+	name="jdbc/projetee"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassName="com.mysql.cj.jdbc.Driver"
+	maxActive="20"
+	maxIdle="5"
+	maxWait="10000"
+	username="root"
+	password="cacaprout666"
+	url ="jdbc:mysql://localhost:3306/projetee?useSSL=true&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+	/>
+</Context>
